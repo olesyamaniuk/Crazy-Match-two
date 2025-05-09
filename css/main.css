@@ -575,7 +575,7 @@ a {
 @media screen and (min-width: 1200px) {
   .w-n-reviews-container {
     margin: auto;
-    padding: 150px 0 0 242px;
+    padding: 150px 0 0 0;
     width: 1440px;
   }
   .w-n-reviews-div {
@@ -584,6 +584,7 @@ a {
     flex-direction: row;
     align-items: center;
     gap: 45px;
+    padding-left: 242px;
   }
   .w-n-why-list {
     display: block;
@@ -744,14 +745,18 @@ a {
 .w-n-gallery-container {
   width: 375px;
   margin: auto;
-  padding: 80px 0px 0 30px;
+  padding: 80px 0px 0;
 }
 .w-n-gallery-list {
   width: auto;
-  padding: 24px 0;
+  padding: 24px 0 0 30px;
   margin: auto;
 }
-
+.w-n-gallery-lists {
+  width: auto;
+  padding: 24px 0 0 30px;
+  margin: auto;
+}
 .w-n-gallery-item {
   overflow: hidden;
   position: relative;
@@ -767,11 +772,16 @@ a {
   .w-n-gallery-container {
     width: 1440px;
     margin: auto;
-    padding: 150px 0 0 242px;
+    padding: 150px 0 0;
   }
 
   .w-n-gallery-list {
-    padding: 40px 0 24px;
+    padding: 40px 0 24px 242px;
+  }
+  .w-n-gallery-lists {
+    width: auto;
+    padding: 0px 0 0 242px;
+    margin: auto;
   }
 }
 
